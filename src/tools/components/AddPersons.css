@@ -1,0 +1,12 @@
+.add-persons {
+  margin: 50px 100px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.add-persons input {
+  margin: 0 5px;
+  height: 30px;
+}

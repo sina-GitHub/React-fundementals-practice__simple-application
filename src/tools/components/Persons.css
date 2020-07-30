@@ -1,0 +1,45 @@
+.persons {
+  position: relative;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #333;
+  background-color: #333;
+  border-radius: 3px;
+  font-size: 30px;
+  height: auto;
+  margin-bottom: 450px;
+}
+
+.person {
+  position: relative;
+  color: #fff;
+}
+
+.person-container {
+  position: relative;
+  left: -80px;
+}
+
+.person-name,
+.person-age {
+  display: inline-block !important;
+  padding-bottom: 40px;
+  margin: 0 5px;
+}
+
+.person-delete {
+  display: flex;
+  width: 200px;
+  position: relative;
+  left: 150px;
+  top: 40px;
+  background-color: rgba(184, 38, 38, 0.698);
+  cursor: pointer;
+}
+
+.person-delete p {
+  padding: 5px;
+  margin: auto;
+}

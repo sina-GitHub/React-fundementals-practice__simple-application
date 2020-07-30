@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #212121;
+}
+
+/* .react-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
